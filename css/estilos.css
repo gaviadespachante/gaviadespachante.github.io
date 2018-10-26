@@ -671,38 +671,14 @@ footer .logo {
 @font-face {
 	font-family: 'Comfortaa';
 	src: local('Comfortaa Light'), local(Comfortaa-Light),
-		url(../fonts/comfortaa/comfortaa-light.woff2) format("woff2"),
-		url(../fonts/comfortaa/comfortaa-light.woff) format("woff"),
 		url(../fonts/comfortaa/comfortaa-light.ttf) format("truetype");
 	font-style: normal;
 	font-weight: 300
 }
 
 @font-face {
-	font-family: 'Comfortaa';
-	src: local(Comfortaa), url(../fonts/comfortaa/comfortaa-regular.woff2)
-		format("woff2"), url(../fonts/comfortaa/comfortaa-regular.woff)
-		format("woff"), url(../fonts/comfortaa/comfortaa-regular.ttf)
-		format("truetype");
-	font-style: normal;
-	font-weight: 400
-}
-
-@font-face {
-	font-family: 'Comfortaa';
-	src: local('Comfortaa Bold'), local(Comfortaa-Bold),
-		url(../fonts/comfortaa/comfortaa-bold.woff2) format("woff2"),
-		url(../fonts/comfortaa/comfortaa-bold.woff) format("woff"),
-		url(../fonts/comfortaa/comfortaa-bold.ttf) format("truetype");
-	font-style: normal;
-	font-weight: 700
-}
-
-@font-face {
 	font-family: 'Open Sans';
 	src: local('Open Sans Light'), local(OpenSans-Light),
-		url(../fonts/opensans/opensans-light.woff2) format("woff2"),
-		url(../fonts/opensans/opensans-light.woff) format("woff"),
 		url(../fonts/opensans/opensans-light.ttf) format("truetype");
 	font-style: normal;
 	font-weight: 300
@@ -711,8 +687,6 @@ footer .logo {
 @font-face {
 	font-family: 'Open Sans';
 	src: local('Open Sans'), local(OpenSans),
-		url(../fonts/opensans/opensans-regular.woff2) format("woff2"),
-		url(../fonts/opensans/opensans-regular.woff) format("woff"),
 		url(../fonts/opensans/opensans-regular.ttf) format("truetype");
 	font-style: normal;
 	font-weight: 400
@@ -721,31 +695,9 @@ footer .logo {
 @font-face {
 	font-family: 'Open Sans';
 	src: local('Open Sans Bold'), local(OpenSans-Bold),
-		url(../fonts/opensans/opensans-bold.woff2) format("woff2"),
-		url(../fonts/opensans/opensans-bold.woff) format("woff"),
 		url(../fonts/opensans/opensans-bold.ttf) format("truetype");
 	font-style: normal;
 	font-weight: 700
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	src: local('Open Sans Extrabold'), local(OpenSans-Extrabold),
-		url(../fonts/opensans/opensans-extrabold.woff2) format("woff2"),
-		url(../fonts/opensans/opensans-extrabold.woff) format("woff"),
-		url(../fonts/opensans/opensans-extrabold.ttf) format("truetype");
-	font-weight: 800;
-	font-style: normal
-}
-
-@font-face {
-	font-family: 'Open Sans';
-	src: local('Open Sans Italic'), local(OpenSans-Italic),
-		url(../fonts/opensans/opensans-italic.woff2) format("woff2"),
-		url(../fonts/opensans/opensans-italic.woff) format("woff"),
-		url(../fonts/opensans/opensans-italic.ttf) format("truetype");
-	font-style: italic;
-	font-weight: 400
 }
 
 .header-login{
@@ -818,7 +770,7 @@ footer .logo {
 	display: block;
 	font-size: 35px;
 	letter-spacing: -1.4px;
-	font-weight: 900;
+	font-weight: 700;
 	text-transform: uppercase
 }
 @media not all and (min-width:760px) {
